@@ -88,7 +88,7 @@ function cambiar_boton() {
     }, 500);
 
     HTML_imagen_logo.setAttribute("src","imagenes/LogoRecortado.png" ) 
-    HTML_imagen_vector.setAttribute("src","imagenes/vector.png" )
+    HTML_imagen_vector.setAttribute("src","imagenes/Vector.png" )
 
     change=!change;
   }
