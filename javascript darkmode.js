@@ -12,7 +12,7 @@ const HTML_imagen_vector= document.querySelector(".imagen-vector")
 HTML_imagenDarkMode.addEventListener("click", (evento)=>{ 
   evento.preventDefault(); 
   const evento_local = evento.target
-  console.log(`TESTING img`, evento_local);
+  // console.log(`TESTING img`, evento_local);
 
   cambiar_boton() ;
   evento.stopPropagation(); //evita que se duplique el evento
@@ -22,7 +22,7 @@ HTML_contenedor.addEventListener("click", (evento)=>{
 
   evento.preventDefault(); 
   const evento_local = evento.target
-  console.log(`TESTING contenedor`, evento_local);
+  // console.log(`TESTING contenedor`, evento_local);
 
   cambiar_boton() 
 })
