@@ -3,7 +3,7 @@ html{
   font-size: 20px;  
   background-color: #000000;
   height: 100%; /* para tener el 100% de la pantalla */
-  transition:  1s;
+  transition:  all 0.5s;
 }
 
 body{
@@ -51,18 +51,24 @@ main{
   border-radius: 32px  ;
   background-color: #5a5a5a; 
   width: 320px;
-
+  transition: all 0.5s;
+}
+.sin-resultado{
+  color: white;
+  transition: all 0.5s;
 }
 .sin-resultado h2{
   font-size: 24px;
   margin-top: 10%;
   font-weight: 600;
   line-height: 120%;
+  color:  white;
 }
 .sin-resultado p{
   font-size: 16px;
   margin-top: 10%;
   line-height: 140%;
+  color:  white;
 }
 
 /*-------------------------------------*/
@@ -78,8 +84,8 @@ main{
 .informacion-contenedor-texto{
   margin-bottom: 20px;
   grid-column: 1 / span 2 ;
-
   color: white;
+  transition: all 0.5s;
 }
 
 /*-------------------------------------*/
@@ -92,7 +98,6 @@ button{
   background-color: #D8DFE8;
   font-size: 20px;
   font-weight: 600;
-
 } 
 
 button:active{
@@ -135,17 +140,17 @@ textarea:focus {
   outline: none; /* elimina el molesto borde por defecto*/
 }
 
+
 #textarea-1{
   width: 700px;
   height: 400px; 
   font-size: 35px;  
   font-family:sans-serif;
-
   margin-top: 50px;
-
 }
+
 #textarea-1::placeholder{
-  color: #0A3871;
+  color: #ffffff;
 }
 
 #textarea-2{
