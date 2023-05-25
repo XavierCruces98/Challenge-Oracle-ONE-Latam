@@ -8,7 +8,7 @@ const regex = /^([\s?]*[a-z]+[\s?]*)+$/
 
 const evaluar_text = function(){
   if( !regex.test(HTML_textArea.value) ){
-    HTML_mensaje.innerHTML=`<img src="imagenes/Muñeco.png" id="foto-2">
+    HTML_mensaje.innerHTML=`<img src="1. imagenes/Muñeco.png" id="foto-2">
     <h2>Ningún mensaje fue encontrado</h2>
     <p>Ingresa el texto que desea encriptar o desencriptar.</p>`  
 

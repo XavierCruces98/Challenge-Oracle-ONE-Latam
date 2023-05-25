@@ -29,8 +29,8 @@ HTML_contenedor.addEventListener("click", (evento)=>{
 
 
 function cambiar_boton() {
-  if(change){
-    HTML_hoja_css.href="estilos-dark.css",
+  if(change){ 
+    HTML_hoja_css.href="2. css/estilos-dark.css",
 
     HTML_imagenDarkMode.classList.remove("imagen-desopacar")  // desopacado
     HTML_contenedor.classList.add("contenedor-black") // !Contenedor => oscurecemos  
@@ -48,7 +48,7 @@ function cambiar_boton() {
       HTML_imagenDarkMode.classList.remove("imagen-opacar")   //  primero opacamos, quitamos esta clase
       HTML_imagenDarkMode.classList.add("imagen-desopacar") // segundo despopacamos
    
-      HTML_imagenDarkMode.setAttribute("src","imagenes/luna.png" ) ;
+      HTML_imagenDarkMode.setAttribute("src","1. imagenes/luna.png" ) ;
   
 
       HTML_contenedor.classList.remove("contenedor-black") // !Contenedor => oscurecido
@@ -56,14 +56,14 @@ function cambiar_boton() {
 
     }, 500);
 
-    HTML_imagen_logo.setAttribute("src","imagenes/Logo-blanco.png" ) 
-    HTML_imagen_vector.setAttribute("src","imagenes/vector-blanco.png" ) 
+    HTML_imagen_logo.setAttribute("src","1. imagenes/Logo-blanco.png" ) 
+    HTML_imagen_vector.setAttribute("src","1. imagenes/vector-blanco.png" ) 
 
     change=!change;
   }
 
   else {
-    HTML_hoja_css.href= "estilos-ligth.css";
+    HTML_hoja_css.href= "2. css/estilos-ligth.css";
 
     HTML_imagenDarkMode.classList.remove("imagen-desopacar")   // desopacado
     HTML_contenedor.classList.add("contenedor-white") // !Contenedor => aclaramos  
@@ -80,15 +80,15 @@ function cambiar_boton() {
       HTML_imagenDarkMode.classList.remove("imagen-opacar") 
       HTML_imagenDarkMode.classList.add("imagen-desopacar") 
 
-      HTML_imagenDarkMode.setAttribute("src","imagenes/sol.png" );
+      HTML_imagenDarkMode.setAttribute("src","1. imagenes/sol.png" );
 
       HTML_contenedor.classList.remove("contenedor-white") // !Contenedor => aclarado
       HTML_contenedor_traslado.classList.remove("trasladar-luna-sol") // trasladado
      
     }, 500);
 
-    HTML_imagen_logo.setAttribute("src","imagenes/LogoRecortado.png" ) 
-    HTML_imagen_vector.setAttribute("src","imagenes/Vector.png" )
+    HTML_imagen_logo.setAttribute("src","1. imagenes/LogoRecortado.png" ) 
+    HTML_imagen_vector.setAttribute("src","1. imagenes/Vector.png" )
 
     change=!change;
   }
