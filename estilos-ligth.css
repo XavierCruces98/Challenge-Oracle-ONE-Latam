@@ -1,0 +1,152 @@
+html{
+  font-size: 20px;  
+  background-color: #EFF1FA;
+  height: 100%; /* para tener el 100% de la pantalla */
+  transition:  1s;
+}
+
+body{
+  height: 100%; /* alto===para tener el 100% del html*/
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  font-family:sans-serif;
+}
+/* 📕📕📕📕📕📕📕📕📕📕📕📕📕📕📕📕📕📕📕📕📕📕📕📕📕📕📕📕📕📕*/
+
+header{
+  width: 100%; /* ancho===para tener el 100% del html*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+
+  position: relative;
+  left: 3%; 
+  top: 25px;
+}
+main{
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -50px;
+}
+.ingresar-texto{
+  display: flex;
+  flex-direction: column;
+  height: 650px;
+  width: 800px;
+  
+}
+.mostrar-texto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  height: 650px;
+  padding: 2% 2% 2% 2%;
+  border-radius: 32px  ;
+  background-color: rgb(255, 255, 255); 
+  width: 320px;
+}
+.sin-resultado h2{
+  font-size: 24px;
+  margin-top: 10%;
+  font-weight: 600;
+  line-height: 120%;
+}
+.sin-resultado p{
+  font-size: 16px;
+  margin-top: 10%;
+  line-height: 140%;
+}
+
+/*-------------------------------------*/
+.grid{
+  margin-top: auto;
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  grid-template-rows: auto auto;
+  justify-content: center;
+}
+
+.informacion-contenedor-texto{
+  margin-bottom: 20px;
+  grid-column: 1 / span 2 ;
+  color: rgb(0, 0, 0);
+}
+
+/*-------------------------------------*/
+button{
+  width: 320px;
+  height: 67px;
+  border-radius: 24px;
+  color: #0A3871;
+  border: none;
+  background-color: #D8DFE8;
+  font-size: 20px;
+  font-weight: 600;
+
+  cursor: pointer;
+} 
+
+button:hover{
+  transition: all 0.4s;
+  box-shadow: 10px 10px 5px rgb(140, 140, 141);
+}
+button:active{
+  transition: all 0.4s;
+  transform: translateY(4px) translatex(4px);
+}
+
+.btn-desencriptar{
+  color: #D8DFE8;
+  background-color: #0A3871;
+}
+
+.btn-copiar-contenedor{
+  margin-top: auto;
+} 
+
+/*----------------*/
+
+textarea{
+  border: none;
+  resize:none; 
+  background-color: transparent;
+}
+textarea:focus {
+  outline: none; 
+}
+
+#textarea-1{
+  width: 700px;
+  height: 400px; 
+  font-size: 35px;  
+  font-family:sans-serif;
+  color: #0A3871;
+  margin-top: 50px;
+
+}
+#textarea-1::placeholder{
+  color: #0A3871;
+}
+
+#textarea-2{
+  width: 100%;
+  height: 550px; 
+  font-size: 24px;  
+  font-family:sans-serif;
+  color: #495057;
+}
+
+
+/*---------------*/
+
+#contenedor-superior{
+  display: flex;
+  justify-content: end;
+  margin-right: 50px;
+}
